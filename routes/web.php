@@ -52,5 +52,7 @@ Route::get("/sariii/satu", [sariiiController::class, "satu"]);
 Route::get("/sariii/dua", [sariiiController::class, "dua"]);
 Route::get("/sariii/tiga", [sariiiController::class, "tiga"]);
 
+Route::get("/test-tema", [novitasariController::class, "index"]);
+
 
 

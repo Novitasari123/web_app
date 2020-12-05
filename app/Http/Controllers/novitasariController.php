@@ -18,4 +18,8 @@ class novitasariController extends Controller
     {
         return view("novitasari-3");
     }
+    public function index()
+    {
+        return view("test-tema"); // view dengan tamplate
+    }
 }
